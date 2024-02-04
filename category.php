@@ -70,6 +70,7 @@
                           <div class="news_post_meta">
                             <ul>
                               <li>
+                                <!-- 修正箇所です -->
                                 <?php
                                 $content = get_the_content();
                                 if( is_category('graduates') ) :
@@ -78,6 +79,7 @@
                                   echo wp_trim_words( $content , 100, '...');
                                 endif;
                                 ?>
+                                <!-- 修正箇所ここまで -->
                               </li>
                             </ul>
                           </div>
